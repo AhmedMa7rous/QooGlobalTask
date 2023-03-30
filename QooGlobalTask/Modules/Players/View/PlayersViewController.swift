@@ -98,6 +98,7 @@ class PlayersViewController: UIViewController {
         playersTableView.layer.borderWidth = 1
         playersTableView.layer.borderColor = #colorLiteral(red: 0.9215686275, green: 0.9215686275, blue: 0.9215686275, alpha: 1)
         playersTableView.separatorStyle = .none
+        playersTableView.layer.masksToBounds = true
         //Register PlayersCell
         playersTableView.register(AllPlayersTableViewCell.nib, forCellReuseIdentifier: AllPlayersTableViewCell.identifier)
     }

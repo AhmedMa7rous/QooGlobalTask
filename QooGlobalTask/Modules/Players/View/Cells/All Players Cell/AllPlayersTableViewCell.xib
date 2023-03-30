@@ -74,6 +74,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="bqv-U7-c5s" firstAttribute="leading" secondItem="hMJ-95-w8o" secondAttribute="trailing" constant="10" id="ABx-iC-wiZ"/>
                     <constraint firstItem="qCz-ZQ-8uS" firstAttribute="leading" secondItem="Kuy-Ho-aAs" secondAttribute="trailing" constant="5" id="CRb-GG-kam"/>
@@ -93,6 +94,7 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="playerImageView" destination="hMJ-95-w8o" id="CUg-9V-svZ"/>
                 <outlet property="playerNameLabel" destination="bqv-U7-c5s" id="B8C-oi-dcZ"/>

@@ -28,7 +28,7 @@ class AllPlayersTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
 
-        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 5, left: 10, bottom: 5, right: 10))
+        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10))
     }
 /*=======================================*/
     //MARK: - Services Functions
@@ -37,7 +37,9 @@ class AllPlayersTableViewCell: UITableViewCell {
         self.contentView.layer.cornerRadius = 8
         self.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.15)
         self.layer.shadowRadius = 10
-        self.layer.shadowOpacity = 2
+        self.layer.shadowOffset = CGSize(width: 2, height: 2)
+        self.layer.shadowOpacity = 1
+        self.layer.masksToBounds = true
         playerImageView.layer.cornerRadius = 8
         ratingSatckView.layer.cornerRadius = 8
     }
